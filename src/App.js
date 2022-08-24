@@ -3,8 +3,8 @@ import './App.css';
 // import GreetingStyled from './components/pure/greetingStyled';
 // import Greeting from './components/pure/greeting';
 // import GreetingF from './components/greetingF';
-// import TaskListComponent from './components/container/task_list';
-import Father from './components/container/father';
+import TaskListComponent from './components/container/task_list';
+// import Father from './components/container/father';
 // import Ejemplo from './hooks/Ejemplo';
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import MiComponenteConContexto from './hooks/Ejemplo3';
@@ -19,7 +19,7 @@ function App() {
         {/* <Greeting name="Antonio"></Greeting>?<br/> */}
         {/* <GreetingF name={'Antonio'}></GreetingF> */}
         {/* //? Componente de Listado de Tareas */}
-        {/* <TaskListComponent></TaskListComponent> */}
+        <TaskListComponent></TaskListComponent>
         {/* //? Ejemplos de uso de HOOKS */}
         {/* <Ejemplo></Ejemplo> */}
         {/* <Ejemplo2></Ejemplo2> */}
@@ -33,7 +33,7 @@ function App() {
         {/* <GreetingStyled name="Antonio"></GreetingStyled> */}
       {/* </header> */}
         {/* Gestión de eventos */}
-        <Father></Father>
+        {/* <Father></Father> */}
     </div>
   );
 }
