@@ -74,7 +74,7 @@ const TaskComponent = ({ task, complete, remove }) => {
             <td className='align-middle'>
                 {/* Execution of function to return icon depending on completing */}
                 {taskCompletedIcon()}
-                <i className='bi-trash'
+                <i className='bi-trash task-action1'
                    style={{ color: 'tomato' }}
                    onClick={() => remove(task)}>
 
