@@ -5,3 +5,15 @@
 .task-action1 {
     cursor:grabbing;
 }
+
+.task-completed {
+    color: gray;
+    text-decoration: line-through;
+
+}
+
+.task-pending {
+    font-weight: bold;
+    color: tomato;
+
+}
