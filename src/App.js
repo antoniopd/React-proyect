@@ -42,7 +42,7 @@ function App() {
       {/* <Cuadrado></Cuadrado> */}
       {/* //? Ejemplos de uso de Formik y Yup */}
       {/* <LoginFormik></LoginFormik> */}
-      <RegisterFormik></RegisterFormik>
+      {/* <RegisterFormik></RegisterFormik> */}
 
       {/* //! PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
