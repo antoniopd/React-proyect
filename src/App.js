@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import "./App.css";
+import FetchExample from "./components/pure/FetchExample";
+// import AsyncExamples from "./components/pure/AsyncExamples";
+// import ObservableExample from "./components/pure/ObservableExample";
 // import Cuadrado from "./components/pure/cuadrado";
 // import OptionalRender from "./components/pure/optionalRender";
 // import GreetingStyled from './components/pure/greetingStyled';
@@ -31,18 +34,25 @@ function App() {
         //Todo lo que hay aquím ese tratado como props.children
           <h3>
             Contenido del props.children
-          </h3>
+          </h3>          
         </Ejemplo4> */}
       {/* <GreetingStyled name="Antonio"></GreetingStyled> */}
       {/* </header> */}
       {/* Gestión de eventos */}
       {/* <Father></Father> */}
+
       {/* //? Ejemplos del Renderizado condicional */}
       {/* <OptionalRender></OptionalRender> */}
       {/* <Cuadrado></Cuadrado> */}
+
       {/* //? Ejemplos de uso de Formik y Yup */}
       {/* <LoginFormik></LoginFormik> */}
       {/* <RegisterFormik></RegisterFormik> */}
+
+      {/* //? Ejemplo de procesos asíncronos */}
+      {/* <AsyncExamples></AsyncExamples> */}
+      {/* <ObservableExample></ObservableExample> */}
+      <FetchExample></FetchExample>
 
       {/* //! PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
