@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import "./App.css";
-import FetchExample from "./components/pure/FetchExample";
+import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
+// import AxiosExample from "./components/pure/AxiosExample";
+// import FetchExample from "./components/pure/FetchExample";
 // import AsyncExamples from "./components/pure/AsyncExamples";
 // import ObservableExample from "./components/pure/ObservableExample";
 // import Cuadrado from "./components/pure/cuadrado";
@@ -52,7 +54,9 @@ function App() {
       {/* //? Ejemplo de procesos asíncronos */}
       {/* <AsyncExamples></AsyncExamples> */}
       {/* <ObservableExample></ObservableExample> */}
-      <FetchExample></FetchExample>
+      {/* <FetchExample></FetchExample> */}
+      {/* <AxiosExample></AxiosExample> */}
+      <AxiosCRUDExample></AxiosCRUDExample>
 
       {/* //! PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
