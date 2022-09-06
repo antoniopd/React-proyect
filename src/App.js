@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import "./App.css";
-import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
+import TodosContainer from "./components/container/TodoContainer";
+import TodoFormContainer from "./components/container/TodoFormContainer";
+import Filteroptions from './components/pure/FilterOptions'
+// import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
 // import AxiosExample from "./components/pure/AxiosExample";
 // import FetchExample from "./components/pure/FetchExample";
 // import AsyncExamples from "./components/pure/AsyncExamples";
@@ -56,7 +59,13 @@ function App() {
       {/* <ObservableExample></ObservableExample> */}
       {/* <FetchExample></FetchExample> */}
       {/* <AxiosExample></AxiosExample> */}
-      <AxiosCRUDExample></AxiosCRUDExample>
+      {/* <AxiosCRUDExample></AxiosCRUDExample> */}
+
+      {/* //? Ejemplos Todo container */}
+      <TodosContainer></TodosContainer>
+      <TodoFormContainer></TodoFormContainer>
+      {/* Filter Options contain Filter Container */}
+      <Filteroptions></Filteroptions>
 
       {/* //! PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent> */}
